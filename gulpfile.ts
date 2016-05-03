@@ -93,7 +93,7 @@ gulp.task('serve.dev', done =>
 gulp.task('serve.e2e', done =>
   runSequence('build.e2e',
               'server.start',
-              'watch.serve',
+              'watch.e2e',
               done));
 
 // --------------

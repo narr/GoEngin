@@ -44,3 +44,6 @@ docs
 lib
 test
 tmp
+
+.history
+narr
