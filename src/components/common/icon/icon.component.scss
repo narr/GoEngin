@@ -2,5 +2,9 @@
 	display: inline-block;
 	.material-icons {
 		line-height: inherit;
+    // FIX:
+    // TODO: ge-icon has more height that should be figured out. 
+    // force assign a height as 56px => line-height
+    display: block;
 	}
 }
